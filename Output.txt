@@ -1,0 +1,31 @@
+SDES Sample input and output
+
+Original:
+Enter 8-bit block of Plain Text
+10111101
+Enter 10-bit Key
+1001001100
+Which S1 box you would like to use, type o/O for Original and m/M for modified
+o
+
+The entered 8-bit Plain text is: 	10111101
+The entered 10-bit Key is: 	1001001100
+The intermediate result after the SW operation while encrypting: 	11100010
+The ciphertext is: 	10101000
+The intermediate result after the SW operation while decrypting: 	00101110
+The result of decryption process is: 	10111101
+
+Modified:
+Enter 8-bit block of Plain Text
+10111101
+Enter 10-bit Key
+1001001100
+Which S1 box you would like to use, type o/O for Original and m/M for modified
+m
+
+The entered 8-bit Plain text is: 	10111101
+The entered 10-bit Key is: 	1001001100
+The intermediate result after the SW operation while encrypting: 	11100110
+The ciphertext is: 	00101001
+The intermediate result after the SW operation while decrypting: 	01101110
+The result of decryption process is: 	10111101
